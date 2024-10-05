@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: Cador_left
+    shield: cador_left
   - board: nice_nano_v2
-    shield: Cador_right
+    shield: cador_right
   - board: nice_nano_v2
-    shield: Settings_reset
+    shield: settings_reset
