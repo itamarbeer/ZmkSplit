@@ -1,0 +1,16 @@
+if SHIELD_Cador_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Cador"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_Cador_LEFT || SHIELD_Cador_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
