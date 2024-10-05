@@ -1,6 +1,6 @@
 config SHIELD_CADOR_LEFT
-    def_bool $(shields_list_contains,Cador_left)
+    def_bool $(shields_list_contains,cador_left)
 
 config SHIELD_CADOR_RIGHT
-    def_bool $(shields_list_contains,Cador_right)
+    def_bool $(shields_list_contains,cador_right)
 
